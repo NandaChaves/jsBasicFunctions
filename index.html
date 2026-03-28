@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <title>Array methods</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <style>
+    .container{
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <div class="container">
+        <label style="color:green; font-size: 25px; font-weight: bold;">Lista de cafés</label><br>
+        <h6 id="demo"></h6>
+
+        <label style="color:purple; font-weight: bold;">Insira um novo sabor de café</label><br>
+        <input type="text" class="form-control col-md-3 my-3" id="flavor">
+        <button class="btn btn-success" onclick="addNewFlavor()">Add</button><hr>
+    </div>
+    <div class="container"> 
+      <h4 style="color:green; font-weight:bold; text-align: center;">Array methods</h4>
+
+    <!--      <h5>Nova lista usando o método push</h5>-->
+      <h5 id="lista" style="color:purple;"></h5>
+      <h5 id="len">       </h5>
+      <h5 id="sort">      </h5>
+      <h5 id="toString">  </h5>
+      <h5 id="join">      </h5>
+      <h5 id="posi">      </h5>
+      <h5 id="join">      </h5>
+      <h5 id="unshift">   </h5>
+      <h5 id="splice">    </h5>
+      <h5 id="reverse">   </h5>
+      <h5 id="map">       </h5>
+      <h5 id="keys">      </h5>
+      <h5 id="values">    </h5>
+      <h5 id="copyWithin"></h5>
+      <h5 id="indexOf">   </h5>
+      <h5 id="get">       </h5>
+
+        <h5>Dropdown de array en Javascript</h5>
+        <form>
+          <select id="select" class="form-control col-md-3">
+            <option value="default">Default</option>
+          </select>
+          <h4><input type="number" class="form-control col-md-3 my-3" id="preco"></h4>
+        </form>
+
+        <button class="btn btn-warning" type="button" id="botao">Mudar preço</button>
+        <p id="showcoffee">Sabor</p>
+        <p id="precos">Preco</p>
+    </div>
+    
+    <script src="arrays.js"></script>
+    <p id="demo"></p>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  </body>
+</html>
