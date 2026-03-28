@@ -1,4 +1,5 @@
 ☕ Coffee Array Methods Explorer
+
 Este é um projeto interativo simples criado para praticar e visualizar o funcionamento dos principais métodos de Arrays e Maps no JavaScript. Ao adicionar um novo sabor de café, a página processa a lista e exibe o resultado de várias funções em tempo real.
 
 🚀 Funcionalidades
